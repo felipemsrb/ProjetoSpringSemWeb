@@ -14,6 +14,7 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
+		System.out.println("Primeiro projeto utilizando o framework spring");
 
 	}
 }
