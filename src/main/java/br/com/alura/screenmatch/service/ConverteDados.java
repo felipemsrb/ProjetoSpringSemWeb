@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 //Converte o a string para json e transforma para a classse solicitada
+
 public class ConverteDados implements IConverteDados{
 
     private ObjectMapper mapper = new ObjectMapper();
