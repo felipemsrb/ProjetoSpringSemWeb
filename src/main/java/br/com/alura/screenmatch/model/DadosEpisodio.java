@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 //seleciona apenas o que eu preciso dos dados do episódio
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public record DadosEpisodio(@JsonAlias("Season") String temporada,
-                            @JsonAlias("Episode") String numeroEpisodio,
+public record DadosEpisodio(@JsonAlias("Season") Integer temporada,
+                            @JsonAlias("Episode") Integer numeroEpisodio,
                             @JsonAlias("Title") String titulo) {
 }
